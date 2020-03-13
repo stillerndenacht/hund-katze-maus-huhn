@@ -1,9 +1,28 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-#wrapper{
-	width: 960px;
-	margin: auto;
-	
+#wrapper {
+  width: 960px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.col {
+  position: relative;
+}
+p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: ;
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
 }
